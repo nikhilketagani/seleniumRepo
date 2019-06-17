@@ -18,7 +18,7 @@ public class NewTest {
   @BeforeMethod
   public void setUp() {
 //	  System.setProperty("webdriver.chrome.driver","/home/edureka/chromedriver/chromedriver.exe");
-	  System.setProperty("webdriver.chrome.driver","/var/jenkins_home/workspace/seleniumTesting/lib/chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","/var/jenkins_home/workspace/seleniumTesting/lib/chromedriver");
 	  ChromeOptions chromeOptions = new ChromeOptions();
 	  chromeOptions.setHeadless(true);
 	  driver = new ChromeDriver(chromeOptions);
